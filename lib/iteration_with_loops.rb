@@ -14,5 +14,6 @@ while row_index < src.count do
   outer_results << min_of_nested_array
   row_index += 1
 end
-p outer_results
+outer_results2 = outer
+p outer_results2
 end
