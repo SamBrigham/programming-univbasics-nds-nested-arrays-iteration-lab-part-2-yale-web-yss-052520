@@ -11,7 +11,7 @@ while row_index < src.count do
     end
     element_index += 1
   end
-  min_of_nested_array
+  outer_results << min_of_nested_array 
   row_index += 1
 end
 p outer_results
