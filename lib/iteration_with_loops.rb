@@ -8,7 +8,6 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if src[row_index][element_index] < src[row_index][element_index -1]
     min_of_nested_array[row_index] = src[row_index][element_index]
-    binding.pry
     end
     element_index += 1
   end
