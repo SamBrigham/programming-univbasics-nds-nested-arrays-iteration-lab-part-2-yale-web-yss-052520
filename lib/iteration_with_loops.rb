@@ -6,7 +6,8 @@ while row_index < src.count do
   element_index = 0
   min_of_nested_array = []
   while element_index < src[row_index].count do
-    min_of_nested_array[row_index] = min(src[row_index])
+      if src[row_index][element_index] < src[row_index][element_index -1]
+    min_of_nested_array[row_index] = src[row_index][element_index]
     end
     element_index += 1
   end
